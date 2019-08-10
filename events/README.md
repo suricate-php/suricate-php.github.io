@@ -63,7 +63,7 @@ abstract class EventListener
 {
     protected $payload;
 
-    public function __construct(mixed $payload)
+    public function __construct($payload)
     {
         $this->payload = $payload;
     }

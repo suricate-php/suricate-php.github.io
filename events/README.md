@@ -39,7 +39,7 @@ declare(strict_types=1);
 
 namespace App\Events;
 
-class TestEvent extends \Suricate\Event
+class TestEvent extends \Suricate\Event\Event
 {
     const EVENT_TYPE = 'event.test';
 }
@@ -50,7 +50,7 @@ In the object way, events are holding their own payload: it's up to you to defin
 
 ## Create an EventListener
 
-All Suricate Event Listeners are created with objects that extends abstract class `\Suricate\Interfaces\EventListener`:
+All Suricate Event Listeners are created with objects that extends abstract class `\Suricate\Event\EventListener`:
 
 ```php
 <?php

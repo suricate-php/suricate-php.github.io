@@ -2,8 +2,6 @@
 
 ## Collections
 
-## Events
-
 ## Flash messages
 
 ## Image management

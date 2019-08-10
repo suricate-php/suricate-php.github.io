@@ -1,7 +1,10 @@
 - [Quickstart](/quickstart)
 - [Directory structure](/directory-structure/)
 - [The basics](/basics/)
-- [Going Further](/going-further/)
+- [Events](/events/)
 - [Database object](/database-object/)
+- [Redis worker](/redis-worker/)
+- [Going Further](/going-further/)
+
 - [Services](/services/)
 - [Utilities](/utilities/)

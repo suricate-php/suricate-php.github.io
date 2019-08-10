@@ -74,3 +74,5 @@ $myParam = getParam(string $paramName, $defaultValue = null)
 ## Date/Time helpers
 
 ### `niceTime()` function
+
+## Event helper

@@ -120,6 +120,20 @@ will result :
 
 ##### delete()
 
+##### setInsertIgnore(\$flag)
+
+Calling `setInsertIgnore(true)` will force save with the `INSERT IGNORE` syntax (for a newly created object).
+
+```php
+<?php
+$entity = new MyEntity();
+$entity->id = 3
+$entity->name = 'my awesome entity';
+$entity->setInsertIgnore(true)->save();
+```
+
+!> **setInsertIgnore()** is available since Suricate 0.3.2
+
 ##### save()
 
 ##### validate()
